@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib  
+    PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"  
+    "http://java.sun.com/dtd/web-jsptaglibrary_1_1.dtd">
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.2</jspversion>
+	<shortname>work</shortname>
+	<uri></uri>
+	
+	<tag>
+		<name>display</name>
+		<tagclass>org.springside.modules.web.MenuTreeTag</tagclass>
+   	</tag>
+   	
+	<tag>
+		<name>org</name>
+		<tagclass>org.springside.modules.web.OrgTreeTag</tagclass>
+   	</tag>
+   	
+	<tag>
+		<name>url</name>
+		<tagclass>org.springside.modules.web.URLTag</tagclass>
+		<attribute>
+			<name>encrypt</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>convert</name>
+		<tagclass>org.springside.modules.web.ConvertTag</tagclass>
+	</tag>
+</taglib>

@@ -1,0 +1,84 @@
+BODY {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f5f5f5; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+A {
+	TEXT-DECORATION: underline
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content {
+	BACKGROUND-IMAGE: url(../../images/bg.jpg); POSITION: relative; MARGIN: 160px auto 0px; WIDTH: 649px; HEIGHT: 304px
+}
+.mylib {
+	POSITION: absolute; WIDTH: 160px; TOP: 26px; RIGHT: 70px
+}
+.mylib A {
+	PADDING-LEFT: 25px; WIDTH: 135px; DISPLAY: block; COLOR: #ffffff
+}
+.mylib A:hover {
+	TEXT-DECORATION: underline
+}
+.card {
+	POSITION: absolute; WIDTH: 380px; BOTTOM: 50px; LEFT: 46px
+}
+.card A {
+	COLOR: #6a6ab2
+}
+.input {
+	BORDER-BOTTOM: #3f7cb5 1px solid; BORDER-LEFT: #3f7cb5 1px solid; MARGIN: 1px; PADDING-LEFT: 5px; WIDTH: 180px; HEIGHT: 16px; VERTICAL-ALIGN: middle; BORDER-TOP: #3f7cb5 1px solid; BORDER-RIGHT: #3f7cb5 1px solid
+}
+.input_d {
+	BORDER-BOTTOM: #3f7cb5 1px solid; BORDER-LEFT: #3f7cb5 1px solid; MARGIN: 1px; PADDING-LEFT: 5px; WIDTH: 80px; HEIGHT: 18px; VERTICAL-ALIGN: middle; BORDER-TOP: #3f7cb5 1px solid; BORDER-RIGHT: #3f7cb5 1px solid
+}
+.button {
+	WIDTH: 120px; HEIGHT: 23px
+}
+#denglu {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 32px; WIDTH: 102px; PADDING-RIGHT: 0px; COLOR: #488bb8; PADDING-TOP: 70px
+}
+.dxsy {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 51px; HEIGHT: 20px; COLOR: #488bb8; PADDING-TOP: 28px
+}
+#zhizhen {
+	POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 302px; PADDING-RIGHT: 0px; COLOR: #488bb8; TOP: 17px; PADDING-TOP: 0px; LEFT: 220px
+}
+.acc {
+	TEXT-ALIGN: right; MARGIN: 15px 0px 0px 80px; WIDTH: 400px; FONT-FAMILY: "ËÎÌו"; COLOR: #3e739d; FONT-SIZE: 12px
+}
+.acc UL {
+	TEXT-ALIGN: left; MARGIN: 0px
+}
+.acc LI {
+	MARGIN-BOTTOM: 8px
+}
+.acc A {
+	COLOR: #6a6ab2
+}
+.libuttom {
+	PADDING-LEFT: 48px
+}
+.userip {
+	POSITION: absolute; BOTTOM: 10px; COLOR: #aaaaac; LEFT: 20px
+}
+.link {
+	POSITION: absolute; BOTTOM: 9px; RIGHT: 50px
+}
+.link A {
+	COLOR: #3a85b4; TEXT-DECORATION: none
+}
+.link A:hover {
+	TEXT-DECORATION: underline
+}
+.tabNav {
+	BORDER-BOTTOM: #3a85b4 1px solid; MARGIN: 20px 0px 0px 43px; PADDING-LEFT: 34px; WIDTH: 460px
+}
+.tabNav A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: inline-block; COLOR: #6a6ab2; MARGIN-RIGHT: 10px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.tabNav .on {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: #3a85b4 1px solid; PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #f6f6f6; BOTTOM: -1px; COLOR: #000; BORDER-TOP: #3a85b4 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #3a85b4 1px solid
+}
