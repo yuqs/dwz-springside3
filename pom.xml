@@ -6,7 +6,7 @@
 		<version>3.3.4</version>
 	</parent>
   <groupId>org.springside</groupId>
-  <artifactId>dwz-web-archetype</artifactId>
+  <artifactId>dwz-web-springside</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 	<!-- 项目属性 -->
