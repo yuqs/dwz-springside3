@@ -33,6 +33,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
 	/**
 	 * 获取用户Details信息的回调函数.
+	 * yuqs modify
+	 * 2013-03-31
+	 * 改造获取用户的方法，并且将用户的所有权限存放到UserContext对象中，以供其他模块访问
 	 */
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException, DataAccessException {
 
@@ -61,6 +64,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
 	/**
 	 * 获得用户所有角色的权限集合.
+	 * yuqs modify
+	 * 2013-03-31
 	 */
 	@SuppressWarnings("unused")
 	@Deprecated

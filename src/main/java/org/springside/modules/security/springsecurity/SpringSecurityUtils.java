@@ -47,6 +47,11 @@ public class SpringSecurityUtils {
 		return (T) principal;
 	}
 	
+	/**
+	 * 返回当前登录用户对应的实体上下文UserContext
+	 * yuqs add
+	 * 2013-03-31
+	 */
 	public static UserContext getUserContext() {
 		Object principal = getAuthentication().getPrincipal();
 		if(principal instanceof UserContext) {
@@ -55,6 +60,11 @@ public class SpringSecurityUtils {
 		return null;
 	}
 	
+	/**
+	 * 返回当前登录用户对应的User对象
+	 * yuqs add
+	 * 2013-03-31
+	 */
 	public static org.springside.modules.security.entity.User getUser() {
 		UserContext uc = getUserContext();
 		if(uc != null) {
@@ -76,6 +86,11 @@ public class SpringSecurityUtils {
 		return authentication.getName();
 	}
 	
+	/**
+	 * 返回当前登录用户的中文名称，如果未登录则返回空字符串
+	 * yuqs add
+	 * 2013-03-31
+	 */
 	public static String getUserName() {
 		if(getUser() != null) {
 			return getUser().getFullname();
